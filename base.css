@@ -65,7 +65,7 @@ header{
   margin-top: 2em;
   float: left;
   width: 20%;
-  margin-bottom: 9em;
+  margin-bottom: 5em;
 }
 /* 'I Am Josh' Logo for the Portfolio.html */
 .logo_portfolio {
@@ -199,19 +199,18 @@ header{
 }
 /* About Page: Photo and Blurb About Me*/
 .about_josh {
-  position: relative;
   clear: both;
   text-align: center;
   background-color: #EEE8AA;
   /*background-color: #D0D0D0;
   border: 2px solid yellow;*/
 }
-.joshphoto {
+/*.joshphoto {
   position: absolute;
   margin-top: -7em;
   margin-left: 1em;
   text-align: center;
-}
+}*/
 .about_paragraph {
   font-size: 1.5em;
   font-family: 'Exo', 'Infinity', sans-serif;

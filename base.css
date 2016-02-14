@@ -107,7 +107,7 @@ footer {
   margin-top: 2em;
   float: left;
   width: 20%;
-  margin-bottom: 2em;
+  margin-bottom: .5em;
 }
 .logo_portfolio {
   margin-left: 1em;
@@ -203,9 +203,20 @@ header{
 }
 .about_skills {
   background-color: #EEE8AA;
-  height: 550px;
   border: 2px solid #00A79D;
   margin-top: 1em;
+}
+.about_info {
+  width: 100%;
+  text-align: center;
+  margin-right: 3em;
+}
+.photolist img {
+  color: #00A79D;
+}
+.imjosh {
+  text-align: center;
+  margin: 4em 0 2em 0;
 }
 @media screen and (min-width: 600px) {
   .desktop {
@@ -244,7 +255,6 @@ header{
   }
   .about_skills {
     margin: 1em 2em 0;
-    height: 400px;
   }
 }
 

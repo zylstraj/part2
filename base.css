@@ -5,6 +5,7 @@
   -o-background-size: cover;
   background-size: cover;
 }*/
+/* Background Image */
 body:before {
   content: "";
   display: block;
@@ -27,7 +28,14 @@ ul li {
 a {
   text-decoration: none;
 }
-
+nav {
+  margin-top: 5em;
+  margin-right: 2.5em;
+  text-align: center;
+}
+header{
+  width:100%;
+}
 /* INDEX PAGE */
 /*.logo_header {
   font-size: 5em;
@@ -44,50 +52,28 @@ a {
   font-size: .75em;
   text-transform: uppercase;
 } */
+
+/* Index.html */
+/* 'I Am Josh' Logo for Index.html */
 .logo_josh {
   text-align: center;
   margin-top: 3em;
 }
-nav {
-  margin-top: 5em;
-  margin-right: 2.5em;
-  text-align: center;
+/* 'I Am Josh' Logo for Contact/About.html */
+.logo_site {
+  margin-left: 1em;
+  margin-top: 2em;
+  float: left;
+  width: 20%;
+  margin-bottom: 9em;
 }
-.nav_josh {
-  font-size: 2em;
-  font-family: 'Exo', 'Infinity', sans-serif;
-  color: #00A79D;
-  margin-top: 1em;
-  letter-spacing: .05em;
-  text-transform: uppercase;
-  font-weight: 100;
-}
-.nav_josh a {
-  color: #00A79D;
-}
-.nav_josh a:visited {
-  color: #00A79D;
-}
-.nav_josh a:hover {
-  color: yellow;
-}
-.nav_josh_index:visited {
-  color: yellow;
-}
-.nav_josh_index a:hover {
-  color: #00A79D;
-}
-.nav_josh_index a {
-  color: yellow;
-}
-.nav_josh_index {
-  font-size: 1.5em;
-  font-family: 'Exo', 'Infinity', sans-serif;
-  font-weight: 100;
-  color: yellow;
-  margin-top: 1em;
-  letter-spacing: .05em;
-  text-transform: uppercase;
+/* 'I Am Josh' Logo for the Portfolio.html */
+.logo_portfolio {
+  margin-left: 1em;
+  margin-top: 2em;
+  float: left;
+  width: 20%;
+  margin-bottom: 5em;
 }
 .nav_josh_desktop a:hover {
   color: #00A79D;
@@ -107,33 +93,47 @@ nav {
   letter-spacing: .05em;
   text-transform: uppercase;
 }
-/* Possible Footer: Still Playing With It/*
-/*footer img {
-  height: 1.5em;
-  width: 1.5em;
-}
-footer {
-  text-align: center;
-  margin-top: 4em;
-}
-*/
-.logo_site {
-  margin-left: 1em;
-  margin-top: 2em;
-  float: left;
-  width: 20%;
-  margin-bottom: 2em;
-}
-.logo_portfolio {
-  margin-left: 1em;
-  margin-top: 2em;
-  float: left;
-  width: 20%;
-  margin-bottom: 5em;
-}
 
-header{
-  width:100%;
+/* Navigation. Hidden for mobile. Appears for Desktop/Tablet */
+.desktop {
+  display: none;
+}
+.nav_josh_index:visited {
+  color: yellow;
+}
+.nav_josh_index a:hover {
+  color: #00A79D;
+}
+.nav_josh_index a {
+  color: yellow;
+}
+.nav_josh_index {
+  font-size: 1.5em;
+  font-family: 'Exo', 'Infinity', sans-serif;
+  font-weight: 100;
+  color: yellow;
+  margin-top: 1em;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+/* Hamburger Button For Every Page */
+.nav_josh {
+  font-size: 2em;
+  font-family: 'Exo', 'Infinity', sans-serif;
+  color: #00A79D;
+  margin-top: 1em;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+.nav_josh a {
+  color: #00A79D;
+}
+.nav_josh a:visited {
+  color: #00A79D;
+}
+.nav_josh a:hover {
+  color: yellow;
 }
 .hamburger{
   background:none;
@@ -179,9 +179,6 @@ header{
   margin-top:5px;
   margin:0 auto;
 }
-.desktop {
-  display: none;
-}
 
 /* Portfolio Page */
 .portfolio_work {
@@ -200,11 +197,20 @@ header{
   letter-spacing: .05em;
   text-align: center;
 }
+/* About Page: Photo and Blurb About Me*/
 .about_josh {
+  position: relative;
   clear: both;
   text-align: center;
+  background-color: #EEE8AA;
   /*background-color: #D0D0D0;
   border: 2px solid yellow;*/
+}
+.joshphoto {
+  position: absolute;
+  margin-top: -7em;
+  margin-left: 1em;
+  text-align: center;
 }
 .about_paragraph {
   font-size: 1.5em;
@@ -214,9 +220,22 @@ header{
   letter-spacing: .05em;
   text-align: center;
   margin: 0 1em;
+  padding: 8em 0 4em;
+}
+.skill_section {
+  clear: both;
+  width: 30%;
+  display: inline-block;
+}
+.yupyup {
+  background-color: #EEE8AA;
+  margin-top: 15em;
+}
+.myskills {
+  clear: both;
 }
 /* About Page: Skill Section */
-.about_skills {
+/*.about_skills {
   background-color: #EEE8AA;
   border: 2px solid #00A79D;
   margin-top: 2em;
@@ -239,7 +258,7 @@ header{
 }
 .develop_gray {
   background-color: #D0D0D0;
-}
+} */
 /* Footer */
 .imjosh {
   text-align: center;
@@ -264,7 +283,7 @@ header{
   }
   .nav_josh_index {
     display: inline-block;
-    margin-left: 1.25em;
+    margin-left: 1.05em;
     font-size: 1.35em;
   }
   .nav_josh_desktop {

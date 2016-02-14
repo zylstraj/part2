@@ -205,7 +205,6 @@ header{
   text-align: center;
   /*background-color: #D0D0D0;
   border: 2px solid yellow;*/
-  height: 550px;
 }
 .about_paragraph {
   font-size: 1.5em;
@@ -216,22 +215,33 @@ header{
   text-align: center;
   margin: 0 1em;
 }
+/* About Page: Skill Section */
 .about_skills {
   background-color: #EEE8AA;
   border: 2px solid #00A79D;
-  margin-top: 1em;
+  margin-top: 2em;
+  clear: both;
 }
-.about_info {
-  width: 100%;
-  text-align: center;
-  margin-right: 3em;
-}
-.photolist img {
+.skill_list {
+  font-size: 1.75em;
+  font-family: 'Exo', 'Infinity', sans-serif;
+  font-weight: 100;
   color: #00A79D;
+  letter-spacing: .05em;
+  text-align: center;
+  margin: 0 auto;
 }
+.photo_list {
+  text-align: center;
+}
+.develop_gray {
+  background-color: #D0D0D0;
+}
+/* Footer */
 .imjosh {
   text-align: center;
   margin: 4em 0 2em 0;
+  clear: both;
 }
 @media screen and (min-width: 600px) {
   .desktop {
@@ -257,19 +267,22 @@ header{
   }
   .about_josh {
     margin: 0 2em;
-    height: 400px;
   }
   .joshphoto {
   width: 40%;
   float: left;
   }
+  /* About Page: Skill Section */
   .about_paragraph {
     padding-top: 6em;
     width: 40%;
     float: right;
   }
-  .about_skills {
-    margin: 1em 2em 0;
+  .about_info {
+  width: 22%;
+  margin: 0 1%;
+  display: inline-block;
+  float: left;
   }
 }
 
@@ -280,5 +293,11 @@ header{
   }
   .about_paragraph {
     padding-right: 3em;
+  }
+  .about_info {
+  width: 25%;
+  margin: 0 1%;
+  display: inline-block;
+  float: left;
   }
 }

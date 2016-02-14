@@ -234,6 +234,9 @@ header{
 .photo_list {
   text-align: center;
 }
+.fixingproblems {
+  background-color: #EEE8AA;
+}
 .develop_gray {
   background-color: #D0D0D0;
 }
@@ -244,6 +247,9 @@ header{
   clear: both;
 }
 @media screen and (min-width: 600px) {
+  nav {
+    margin-right: 1em;
+  }
   .desktop {
     display: inline-block;
     margin-top: 3em;
@@ -258,7 +264,7 @@ header{
   }
   .nav_josh_index {
     display: inline-block;
-    margin-left: .75em;
+    margin-left: 1.25em;
     font-size: 1.35em;
   }
   .nav_josh_desktop {
@@ -273,6 +279,10 @@ header{
   float: left;
   }
   /* About Page: Skill Section */
+  .about_skills {
+    background-color: #EEE8AA;
+    margin-bottom: 2em;
+  }
   .about_paragraph {
     padding-top: 6em;
     width: 40%;

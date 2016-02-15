@@ -61,7 +61,7 @@ header{
 }
 /* 'I Am Josh' Logo for Contact/About.html */
 .logo_site {
-  margin-left: 1em;
+  margin-left: 5%;
   margin-top: 2em;
   float: left;
   width: 20%;
@@ -201,7 +201,6 @@ header{
 .about_josh {
   clear: both;
   text-align: center;
-  background-color: #EEE8AA;
   /*background-color: #D0D0D0;
   border: 2px solid yellow;*/
 }
@@ -219,16 +218,14 @@ header{
   letter-spacing: .05em;
   text-align: center;
   margin: 0 1em;
-  padding: 8em 0 4em;
 }
 .skill_section {
   clear: both;
-  width: 30%;
-  display: inline-block;
+  text-align: center;
 }
 .yupyup {
   background-color: #EEE8AA;
-  margin-top: 15em;
+  clear: both;
 }
 .myskills {
   clear: both;
@@ -239,7 +236,7 @@ header{
   border: 2px solid #00A79D;
   margin-top: 2em;
   clear: both;
-}
+}*/
 .skill_list {
   font-size: 1.75em;
   font-family: 'Exo', 'Infinity', sans-serif;
@@ -249,6 +246,15 @@ header{
   text-align: center;
   margin: 0 auto;
 }
+
+.skill_section {
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+.yupyup {
+   border: 1px solid #00A79D;
+}
+/*
 .photo_list {
   text-align: center;
 }
@@ -290,12 +296,18 @@ header{
     margin-right: 1.5em;
   }
   .about_josh {
-    margin: 0 2em;
+    margin: 0 5%;
+    clear: both;
   }
   .joshphoto {
   width: 40%;
   float: left;
   }
+
+  .skill_section {
+  width: 30%;
+  display: inline-block;
+}
   /* About Page: Skill Section */
   .about_skills {
     background-color: #EEE8AA;
